@@ -235,3 +235,46 @@ service jenkins status
 ps -ef|grep jenkins
 netstat -tulpn|grep 82680
 curl localhost:8080
+yum install maven
+yum insatll maven
+yum install maven
+mvn -version
+curl localhost:8080
+service jenkins start
+service jenkins status
+curl localhost:8080
+mvn archetype:generate 
+cd /opt
+mkdir testmaven
+cd testmaven
+pwd
+mvn archetype:generate 
+mvn archetype:generate
+mvn -B archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
+ls
+cd my-app
+ll
+cd src
+ll
+cd main
+ll
+cd java
+ll
+ls
+cd com
+ll
+cd mycompany
+ll
+cd app
+ll
+cd ../../..
+cd ../..
+cd ..
+ll
+vi pom.xml
+cd target
+ls -l
+cd
+service jenkins start
+service jenkins status
+curl localhost:8080
